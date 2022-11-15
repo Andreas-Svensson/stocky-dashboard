@@ -30,7 +30,7 @@ app = dash.Dash(
     ],
 )
 
-# deployment code
+# deployment code, use Procfile
 server = app.server
 
 app.layout = Layout(symbol_dict).layout()
