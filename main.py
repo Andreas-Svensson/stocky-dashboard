@@ -30,6 +30,9 @@ app = dash.Dash(
     ],
 )
 
+# deployment code
+server = app.server
+
 app.layout = Layout(symbol_dict).layout()
 
 
